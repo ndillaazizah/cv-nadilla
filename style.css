@@ -1,0 +1,80 @@
+/* Tema Warna Biru Pastel & Putih */
+body {
+    background-color: #f0f4f8; /* Biru pastel sangat muda untuk latar belakang */
+    color: #334e68; /* Warna teks biru gelap lembut */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Bagian Header (Foto & Nama di Sampingnya) */
+.header-profile {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Jarak antara foto dan teks */
+    background-color: #ffffff; /* Kotak putih */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Bayangan halus */
+    margin-bottom: 25px;
+}
+
+/* Mengubah Foto Menjadi Bulat Sempurna */
+.header-profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Membuat bulat */
+    object-fit: cover; /* Agar foto tidak gepeng */
+    border: 4px solid #b6d4fe; /* Bingkai biru pastel */
+}
+
+/* Detail Teks di Samping Foto */
+.profile-info h3 {
+    margin: 0 0 5px 0;
+    font-size: 24px;
+    color: #1e3a8a; /* Biru utama */
+}
+
+.profile-info p {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    color: #627d98;
+}
+
+/* Tombol Link Eksternal */
+.btn-link {
+    display: inline-block;
+    background-color: #63b3ed; /* Tombol biru pastel */
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efek saat tombol disentuh kursor */
+.btn-link:hover {
+    background-color: #4299e1;
+}
+/* Desain Tombol Tautan Eksternal Biru Pastel */
+.btn-custom-link {
+    display: block;
+    background-color: #b6d4fe; /* Warna dasar biru pastel muda */
+    color: #1e3a8a; /* Warna teks biru gelap agar kontras dan mudah dibaca */
+    text-align: center;
+    text-decoration: none; /* Menghilangkan garis bawah bawaan link */
+    padding: 12px 20px;
+    border-radius: 8px; /* Sudut melengkung halus */
+    font-weight: 600;
+    transition: all 0.3s ease; /* Efek transisi halus saat disentuh */
+    border: 1px solid #9ec5fe;
+}
+
+/* Efek saat tombol disorot/disentuh kursor */
+.btn-custom-link:hover {
+    background-color: #63b3ed; /* Berubah menjadi biru pastel yang sedikit lebih cerah */
+    color: white; /* Teks berubah menjadi putih */
+    box-shadow: 0 4px 8px rgba(99, 179, 237, 0.3); /* Bayangan halus */
+}
